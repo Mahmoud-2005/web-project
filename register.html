@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إنشاء حساب</title>
+  <link rel="stylesheet" href="register.css">
+  <link rel="icon" href="icon1.jpg" type="image/x-icon" />
+  <script src="register.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mt-5">إنشاء حساب جديد</h2>
+    <form id="registerForm" class="mt-4">
+      <div class="form-group">
+        <label for="username">اسم المستخدم</label>
+        <input type="text" id="username" class="form-control" placeholder="أدخل اسم المستخدم" required>
+      </div>
+      <div class="form-group">
+        <label for="email">البريد الإلكتروني</label>
+        <input type="email" id="email" class="form-control" placeholder="أدخل بريدك الإلكتروني" required>
+      </div>
+      <div class="form-group">
+        <label for="password">كلمة المرور</label>
+        <input type="password" id="password" class="form-control" placeholder="أدخل كلمة المرور" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">تأكيد كلمة المرور</label>
+        <input type="password" id="confirmPassword" class="form-control" placeholder="أعد إدخال كلمة المرور" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">تسجيل</button>
+    </form>
+    <p class="text-center mt-3">
+      لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a>
+    </p>
+  </div>
+</body>
+</html>
